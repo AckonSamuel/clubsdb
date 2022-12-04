@@ -1,0 +1,2 @@
+class Executive < ApplicationRecord
+end
