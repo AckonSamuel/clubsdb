@@ -1,5 +1,4 @@
 class Member < ApplicationRecord
-    belongs_to :club
-    has_many :executives
-    has_many :patrons
+    has_many :clubs_member
+    has_many :clubs, through: :clubs_member
 end
