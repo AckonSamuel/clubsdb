@@ -1,3 +1,3 @@
-class Status < ApplicationRecord
+class Condition < ApplicationRecord
     belongs_to :club
 end
