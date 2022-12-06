@@ -1,4 +1,3 @@
 class Member < ApplicationRecord
-    belongs_to :executive
-    belongs_to :patron
+    belongs_to :club
 end
