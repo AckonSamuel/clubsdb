@@ -1,3 +1,3 @@
 class Patron < ApplicationRecord
-    belongs_to :member
+    belongs_to :club_staffs
 end

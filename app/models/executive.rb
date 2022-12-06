@@ -1,3 +1,3 @@
 class Executive < ApplicationRecord
-    belongs_to :member
+    belongs_to :club_students
 end
