@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 class Club < ApplicationRecord
-  has_one :condition, dependent: :destroy 
+  has_one :condition, dependent: :destroy
   has_many :club_staffs, dependent: :destroy
   has_many :club_students, dependent: :destroy
   has_many :students, through: :club_students
