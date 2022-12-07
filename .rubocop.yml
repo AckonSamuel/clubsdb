@@ -1,0 +1,6 @@
+# .rubocop.yml
+
+Style/Documentation:
+  Enabled: false
+
+require: rubocop-rails

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ClubStaff < ApplicationRecord
   belongs_to :clubs
   belongs_to :staffs
