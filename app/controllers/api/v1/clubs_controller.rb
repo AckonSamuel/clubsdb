@@ -51,7 +51,7 @@ module Api
 
       # Only allow a list of trusted parameters through.
       def club_params
-        params.fetch(:club, {})
+        params.fetch(:club, {}).permit!
       end
     end
   end
